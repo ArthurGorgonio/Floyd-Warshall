@@ -94,6 +94,7 @@ int main() {
       fprintf(fp,"\n");
     }
     free(graph);
+    fclose(fp);
     if (fw) {
       printf("No negative cycles!\n");
       return 0;
